@@ -273,25 +273,8 @@
         ]
       },
       {
-        "name": "Blocks",
-        "children": [
-          {
-            "name": "Interactive",
-            "children": []
-          },
-          {
-            "name": "Development Blocks",
-            "children": []
-          }
-        ]
-      },
-      {
         "name": "Items",
         "children": [
-          {
-            "name": "Steel_Lock",
-            "children": []
-          },
           {
             "name": "SummoningMirror",
             "children": []
@@ -305,15 +288,6 @@
                   {
                     "name": "Warrior",
                     "children": []
-                  },
-                  {
-                    "name": "CTP",
-                    "children": [
-                      {
-                        "name": "WCTP",
-                        "children": []
-                      }
-                    ]
                   }
                 ]
               }
@@ -331,7 +305,7 @@
     "modid": "tames_proredux",
     "modName": "Tames Pro-Redux",
     "version": "1.0.0",
-    "author": "littl, MCreator",
+    "author": "Tameable, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",
     "serverSideOnly": false,
