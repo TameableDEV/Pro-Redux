@@ -1,0 +1,214 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 277,
+    "height": 227,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_welcome_to_redux",
+          "text": {
+            "fixedValue": "Welcome to Redux!"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 78,
+          "y": 17
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_this_mod_changes_how_you_play_mi",
+          "text": {
+            "fixedValue": "This Mod Changes how you play Minecraft, In which I"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 78,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_in_which_i_threw_out_90_of_the",
+          "text": {
+            "fixedValue": "Threw out 90% of the sand in this Sandbox Game!!!!"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 78,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_this_sandbox_game_not_literally",
+          "text": {
+            "fixedValue": "Kidding! It's still a sandbox game but now it's more"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 78,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_linear_youre_still_able_to_do",
+          "text": {
+            "fixedValue": "Linear. You still are able to do Minecraft Things,"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 78,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_but_you_might_need_to_complete_s",
+          "text": {
+            "fixedValue": "But you might need to complete some things first!"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 78,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_anyways_see_ya_later",
+          "text": {
+            "fixedValue": "Anyways, See ya later!"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 78,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_start_redux_run",
+          "text": "Start Redux Run",
+          "isUndecorated": false,
+          "width": 103,
+          "height": 20,
+          "x": 159,
+          "y": 206
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_note_this_gui_is_a_placeholder",
+          "text": {
+            "fixedValue": "(Note: this GUI is a placeholder, it will be changed"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 78,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_later_this_mod_is_still_in_a_ea",
+          "text": {
+            "fixedValue": "Later, this mod is still in a early Alpha. Stuff is"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 78,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_subjected_to_change_in_future_up",
+          "text": {
+            "fixedValue": "Subjected to change in future updates. compatibility"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 78,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_with_said_future_updates_may_not",
+          "text": {
+            "fixedValue": "with said future updates may not work.)"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 78,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_tameable_main_dev_of_redux",
+          "text": {
+            "fixedValue": "- Tameable, Main Dev of Redux."
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 98
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_fv": 60,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "heroswordlv1",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Titus Blade",
+    "specialInformation": {
+      "fixedValue": [
+        "Titus has given you his first ever sword... so don't lose it."
+      ]
+    },
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 3,
+    "efficiency": 6.0,
+    "attackSpeed": 1.5,
+    "enchantability": 2,
+    "damageVsEntity": 6.5,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

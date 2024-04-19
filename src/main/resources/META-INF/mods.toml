@@ -1,0 +1,43 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="Not specified"
+
+[[mods]]
+modId="tames_proredux"
+version="1.0.0"
+displayName="Tames Pro-Redux"
+displayURL="https://mcreator.net"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="littl, MCreator"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.tames_proredux]]
+    modId="neoforge"
+    type="required"
+    versionRange="[20.4.223,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tames_proredux]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.20.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.tames_proredux]]
+    modId="geckolib"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.tames_proredux]]
+    modId="jei"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

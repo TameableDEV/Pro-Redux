@@ -1,0 +1,350 @@
+{
+  "mod_elements": [
+    {
+      "name": "CheckifPlayerIsInNewWorld",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "checkif_player_is_in_new_world",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tamesproredux/procedures/CheckifPlayerIsInNewWorldProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoreStuff/ReduxNewWorldCheck"
+    },
+    {
+      "name": "ReduxMessageDebug",
+      "type": "command",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redux_message_debug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tamesproredux/command/ReduxMessageDebugCommand.java"
+        ]
+      },
+      "path": "~/CoreStuff/ReduxNewWorldCheck"
+    },
+    {
+      "name": "ReduxMessageDebugProcedure",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redux_message_debug_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tamesproredux/procedures/ReduxMessageDebugProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoreStuff/ReduxNewWorldCheck"
+    },
+    {
+      "name": "Redux",
+      "type": "command",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redux",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tamesproredux/command/ReduxCommand.java"
+        ]
+      },
+      "path": "~/CoreStuff/GeneralFunctions/Commands"
+    },
+    {
+      "name": "ReduxStart",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redux_start",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tamesproredux/world/inventory/ReduxStartMenu.java",
+          "src/main/java/net/mcreator/tamesproredux/client/gui/ReduxStartScreen.java"
+        ]
+      },
+      "path": "~/CoreStuff/GeneralGUI/ReduxStartGUI"
+    },
+    {
+      "name": "SummoningMirror",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summoning_mirror",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tamesproredux/item/SummoningMirrorItem.java",
+          "src/main/resources/assets/tames_proredux/models/item/summoning_mirror.json"
+        ]
+      },
+      "path": "~/Items/SummoningMirror"
+    },
+    {
+      "name": "TitusBlade",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titus_blade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tamesproredux/item/TitusBladeItem.java",
+          "src/main/resources/assets/tames_proredux/models/item/titus_blade.json"
+        ]
+      },
+      "path": "~/Items/Weapons/CoreClass/Warrior"
+    },
+    {
+      "name": "ReduxClassCommand",
+      "type": "command",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redux_class_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tamesproredux/command/ReduxClassCommandCommand.java"
+        ]
+      },
+      "path": "~/CoreStuff/GeneralFunctions/Commands"
+    },
+    {
+      "name": "ReduxClassCommandProcedure",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redux_class_command_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tamesproredux/procedures/ReduxClassCommandProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CoreStuff/GeneralFunctions/Commands/CommandProcedures"
+    },
+    {
+      "name": "SMTemplateGUI",
+      "type": "gui",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sm_template_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tamesproredux/client/gui/SMTemplateGUIScreen.java",
+          "src/main/java/net/mcreator/tamesproredux/world/inventory/SMTemplateGUIMenu.java"
+        ]
+      },
+      "path": "~/CoreStuff/GeneralGUI/SummoningMirror"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "ReduxChatSeen",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "PlayerReduxClass",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "PlayerReduxCheckSubclass",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "PlayerReduxSubClass",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:mod:sm_class0selected": []
+  },
+  "language_map": {
+    "en_us": {
+      "gui.tames_proredux.redux_start.label_welcome_to_redux": "Welcome to Redux!",
+      "gui.tames_proredux.redux_start.label_linear_youre_still_able_to_do": "Linear. You still are able to do Minecraft Things,",
+      "item.tames_proredux.titus_blade": "Titus Blade",
+      "gui.tames_proredux.redux_start.label_but_you_might_need_to_complete_s": "But you might need to complete some things first!",
+      "gui.tames_proredux.redux_start.label_this_mod_changes_how_you_play_mi": "This Mod Changes how you play Minecraft, In which I",
+      "gui.tames_proredux.redux_start.label_subjected_to_change_in_future_up": "Subjected to change in future updates. compatibility",
+      "gui.tames_proredux.redux_start.label_tameable_main_dev_of_redux": "- Tameable, Main Dev of Redux.",
+      "gui.tames_proredux.redux_start.label_with_said_future_updates_may_not": "with said future updates may not work.)",
+      "gui.tames_proredux.redux_start.button_start_redux_run": "Start Redux Run",
+      "gui.tames_proredux.redux_start.label_this_sandbox_game_not_literally": "Kidding! It\u0027s still a sandbox game but now it\u0027s more",
+      "gui.tames_proredux.redux_start.label_anyways_see_ya_later": "Anyways, See ya later!",
+      "gui.tames_proredux.redux_start.label_note_this_gui_is_a_placeholder": "(Note: this GUI is a placeholder, it will be changed",
+      "item.tames_proredux.summoning_mirror": "Summoning Mirror",
+      "gui.tames_proredux.redux_start.label_in_which_i_threw_out_90_of_the": "Threw out 90% of the sand in this Sandbox Game!!!!",
+      "gui.tames_proredux.redux_start.label_later_this_mod_is_still_in_a_ea": "Later, this mod is still in a early Alpha. Stuff is"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "CoreStuff",
+        "children": [
+          {
+            "name": "GeneralFunctions",
+            "children": [
+              {
+                "name": "Commands",
+                "children": [
+                  {
+                    "name": "CommandProcedures",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Classes",
+                "children": [
+                  {
+                    "name": "WarriorMelee",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "GeneralGUI",
+            "children": [
+              {
+                "name": "ReduxStartGUI",
+                "children": []
+              },
+              {
+                "name": "SummoningMirror",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "ReduxNewWorldCheck",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Interactive",
+            "children": []
+          },
+          {
+            "name": "Development Blocks",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Steel_Lock",
+            "children": []
+          },
+          {
+            "name": "SummoningMirror",
+            "children": []
+          },
+          {
+            "name": "Weapons",
+            "children": [
+              {
+                "name": "CoreClass",
+                "children": [
+                  {
+                    "name": "Warrior",
+                    "children": []
+                  },
+                  {
+                    "name": "CTP",
+                    "children": [
+                      {
+                        "name": "WCTP",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Structures",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "tames_proredux",
+    "modName": "Tames Pro-Redux",
+    "version": "1.0.0",
+    "author": "littl, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib",
+      "jei"
+    ],
+    "currentGenerator": "neoforge-1.20.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.tamesproredux"
+  },
+  "mcreatorVersion": 202400115821
+}

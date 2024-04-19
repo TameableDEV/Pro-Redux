@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "tames_proredux:item/heroswordlv1"
+  }
+}
