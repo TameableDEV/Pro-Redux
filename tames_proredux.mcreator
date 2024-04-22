@@ -173,6 +173,24 @@
         ]
       },
       "path": "~/CoreStuff/GeneralGUI/SummoningMirror"
+    },
+    {
+      "name": "SamTheWitchBlock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sam_the_witch_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tames_proredux/loot_tables/blocks/sam_the_witch_block.json",
+          "src/main/resources/assets/tames_proredux/models/item/sam_the_witch_block.json",
+          "src/main/resources/assets/tames_proredux/blockstates/sam_the_witch_block.json",
+          "src/main/resources/assets/tames_proredux/models/block/sam_the_witch_block.json",
+          "src/main/java/net/mcreator/tamesproredux/block/SamTheWitchBlockBlock.java"
+        ]
+      },
+      "path": "~/NPCs/TestBlocks/Sam"
     }
   ],
   "variable_elements": [
@@ -218,6 +236,7 @@
       "gui.tames_proredux.redux_start.button_start_redux_run": "Start Redux Run",
       "gui.tames_proredux.redux_start.label_this_sandbox_game_not_literally": "Kidding! It\u0027s still a sandbox game but now it\u0027s more",
       "gui.tames_proredux.redux_start.label_anyways_see_ya_later": "Anyways, See ya later!",
+      "block.tames_proredux.sam_the_witch_block": "Sam The Witch Block",
       "gui.tames_proredux.redux_start.label_note_this_gui_is_a_placeholder": "(Note: this GUI is a placeholder, it will be changed",
       "item.tames_proredux.summoning_mirror": "Summoning Mirror",
       "gui.tames_proredux.redux_start.label_in_which_i_threw_out_90_of_the": "Threw out 90% of the sand in this Sandbox Game!!!!",
@@ -298,6 +317,20 @@
       {
         "name": "Structures",
         "children": []
+      },
+      {
+        "name": "NPCs",
+        "children": [
+          {
+            "name": "TestBlocks",
+            "children": [
+              {
+                "name": "Sam",
+                "children": []
+              }
+            ]
+          }
+        ]
       }
     ]
   },

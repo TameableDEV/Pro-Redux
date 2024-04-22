@@ -22,6 +22,7 @@ import net.mcreator.tamesproredux.network.TamesProreduxModVariables;
 import net.mcreator.tamesproredux.init.TamesProreduxModTabs;
 import net.mcreator.tamesproredux.init.TamesProreduxModMenus;
 import net.mcreator.tamesproredux.init.TamesProreduxModItems;
+import net.mcreator.tamesproredux.init.TamesProreduxModBlocks;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -38,6 +39,8 @@ public class TamesProreduxMod {
 	public TamesProreduxMod(IEventBus modEventBus) {
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+
+		TamesProreduxModBlocks.REGISTRY.register(modEventBus);
 
 		TamesProreduxModItems.register(modEventBus);
 

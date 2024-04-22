@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tames_proredux:block/samwitchbottomblock",
+    "up": "tames_proredux:block/samwitchtopblock",
+    "north": "tames_proredux:block/samwitchblock",
+    "east": "tames_proredux:block/samwitchblock",
+    "south": "tames_proredux:block/samwitchblock",
+    "west": "tames_proredux:block/samwitchblock",
+    "particle": "tames_proredux:block/samwitchbottomblock"
+  },
+  "render_type": "solid"
+}
