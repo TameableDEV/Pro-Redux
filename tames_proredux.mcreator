@@ -305,6 +305,10 @@
                   {
                     "name": "Warrior",
                     "children": []
+                  },
+                  {
+                    "name": "Ranger",
+                    "children": []
                   }
                 ]
               }
