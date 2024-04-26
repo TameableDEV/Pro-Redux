@@ -220,9 +220,7 @@
     }
   ],
   "sound_elements": [],
-  "tag_elements": {
-    "ITEMS:mod:sm_class0selected": []
-  },
+  "tag_elements": {},
   "language_map": {
     "en_us": {
       "gui.tames_proredux.redux_start.label_welcome_to_redux": "Welcome to Redux!",
@@ -353,5 +351,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.tamesproredux"
   },
-  "mcreatorVersion": 202400115821
+  "mcreatorVersion": 202400117319
 }
